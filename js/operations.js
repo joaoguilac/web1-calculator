@@ -25,7 +25,7 @@ function setFloat() {
     }
 }
 
-function selectOperation(operation) {
+function setOperation(operation) {
     operator = operation.innerHTML;
     operating_1 = Number(operating_1);
     document.getElementById("display").innerHTML = operator;
